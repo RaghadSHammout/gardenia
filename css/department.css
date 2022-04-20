@@ -1,0 +1,177 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: andalus;
+	box-sizing: border-box;
+}
+
+
+
+.note {
+  justify-content: center;
+  align-items: center;
+  color: #660029;
+  margin-bottom: 0;
+	font-size: 35px; 
+	text-align: center; 
+	background: linear-gradient(-45deg, #ffe6f7, #cfc9cb, #ffe6f7, #ffe6ec);
+	animation: gradient 9s ease infinite;
+	background-size: 400% 400%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.department{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+height: 650px;
+background: linear-gradient(-45deg, #ff99b3, #cfc9cb, #e3b5c1, #ffe6ec);
+	background-size: 400% 400%;
+	animation: gradient 9s ease infinite;
+		border-bottom: 7px solid #ffe6f7;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.card{
+	height: 400px;
+	width: 444px;
+	border-radius: 400px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	opacity: .9;
+	border: 6px solid #ffe6f7;
+
+
+}
+
+
+
+.card img{
+	height: 100%;
+	width: 100%;
+
+}
+.card:hover{
+	height: 410px;
+	width: 450px;
+	border-radius: 300px;
+	opacity: 1;
+		border: 4px solid #cc6699;
+
+}
+ button{
+		border: 2px solid #ffe6f2;
+		 background: linear-gradient(-45deg,  #cfc9cb,  #ffe6ec);
+	
+
+}
+h2{
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+
+.footerClass{
+width: 100%;
+	padding: 100px 0px;
+	background: linear-gradient(-45deg, #000000, #000000, #ffe6ff, #000000);
+	background-size: 400% 400%;
+	color: white;
+ 
+}
+
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f76e9c;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
